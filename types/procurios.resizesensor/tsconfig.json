@@ -3,12 +3,12 @@
         "module": "commonjs",
         "lib": [
             "es6",
-            "dom"
+            "DOM"
         ],
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "strictNullChecks": true,
         "strictFunctionTypes": true,
+        "strictNullChecks": true,
         "baseUrl": "../",
         "typeRoots": [
             "../"
@@ -19,6 +19,7 @@
     },
     "files": [
         "index.d.ts",
-        "vimeo-tests.ts"
+        "test/procurios.resizesensor-tests.cjs.ts",
+        "test/procurios.resizesensor-tests.global.ts"
     ]
 }
